@@ -7,7 +7,6 @@
 #define VERSION "1.0"
 #define AUTHOR "author"
 
-
 #pragma semicolon 1
 #pragma ctrlchar '\'
 

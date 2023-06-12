@@ -114,6 +114,10 @@ public startGame(id)
             return 0;
         }
     }
+    if (equali(buffer1, "!map", 0))
+    {
+    	server_cmd("changelevel %s", buffer2);
+}
     return 0;
 }
 

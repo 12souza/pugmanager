@@ -25,7 +25,7 @@ public plugin_init()
     register_plugin("New Plug-In", "1.0", "mrsou");
     server_cmd("mp_chattime 5");
     register_clcmd("say", "startGame");
-    register_cvar("currentRound", "1");
+    register_cvar("currentRound", "0");
     new region[64];
     get_cvar_string("region", region, 63);
     register_cvar("region", region);
